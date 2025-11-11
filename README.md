@@ -1,4 +1,4 @@
-<h2 align="center">Oridnary Gosade</h2>
+<h2 align="center">Ordinary Gosade</h2>
 
 <p align="center">
   <a href="https://github.com/mosoksehbro">
