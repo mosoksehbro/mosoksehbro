@@ -3,4 +3,3 @@
 ![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=gosade&theme=tokyonight)
 
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=mosoksehbro&theme=tokyonight)
-![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=mosoksehbro&theme=tokyonight)
