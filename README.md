@@ -1,6 +1,7 @@
 <h1 align="center">👋 Hi, I'm Deeminor</h1>
 <p align="center">
-  Passionate about web development, open-source, and clean design ✨ <br>
+ Crafting Code. Designing Impact.
+ From fullstack solutions to intelligent systems, I help ideas become digital realities — with clean architecture and thoughtful UI. <br>
   <a href="https://gosade.space" target="_blank">🌐 gosade.space</a>
 </p>
 
