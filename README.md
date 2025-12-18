@@ -13,7 +13,7 @@
 
   <a href="https://github.com/mosoksehbro">
     <img 
-      src="https://github-readme-sigma-blue.vercel.app/api?username=mosoksehbro&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true" 
+      src="https://github-readme-stats.vercel.app/api?username=mosoksehbro&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true" 
       height="180em" 
       alt="GitHub Stats"
     />
@@ -21,7 +21,7 @@
 
   <a href="https://github.com/mosoksehbro">
     <img 
-      src="https://github-readme-sigma-blue.vercel.app/api/top-langs/?username=mosoksehbro&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=mosoksehbro&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" 
       height="180em" 
       alt="Top Languages"
     />
@@ -29,16 +29,17 @@
 
 </div>
 
+
 ---
 
 <h2 align="center">⏱️ WakaTime Activity</h2>
 
 <div align="center">
-  <a href="https://wakatime.com/@gosade">
+  <a href="https://github.com/mosoksehbro">
     <img 
-      src="https://github-readme-sigma-blue.vercel.app/api/wakatime?username=gosade&theme=tokyonight&hide_border=true&border_radius=12&layout=compact" 
-      height="260em" 
-      alt="WakaTime Stats"
+      src="https://streak-stats.demolab.com?user=mosoksehbro&theme=tokyonight&hide_border=true&border_radius=12" 
+      height="200em" 
+      alt="GitHub Streak"
     />
   </a>
 </div>
