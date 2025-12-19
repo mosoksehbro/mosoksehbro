@@ -30,7 +30,7 @@
   <a href="https://wakatime.com/@mosoksehbro">
     <img
       src="https://github-readme-stats.vercel.app/api/wakatime?username=gosade&theme=tokyonight&hide_border=true&border_radius=14&layout=compact&cache_seconds=86400"
-      height="180"
+      height="260"
       alt="WakaTime Stats"
     />
   </a>
