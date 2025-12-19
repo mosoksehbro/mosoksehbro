@@ -44,7 +44,7 @@
 <div align="center">
   <a href="https://github.com/mosoksehbro">
     <img 
-      src="https://streak-stats.demolab.com?user=mosoksehbro&theme=tokyonight&hide_border=true&border_radius=12"
+      src="https://streak-stats.demolab.com?user=mosoksehbro&theme=tokyonight&hide_border=true&border_radius=12&v=1"
       height="200em"
       alt="GitHub Streak"
     />
