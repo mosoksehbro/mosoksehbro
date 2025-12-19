@@ -42,13 +42,10 @@
 <h2 align="center">🔥 Contribution Streak</h2>
 
 <div align="center">
-  <a href="https://github.com/mosoksehbro">
-    <img 
-      src="https://streak-stats.demolab.com?user=mosoksehbro&theme=tokyonight&hide_border=true&border_radius=12&v=1"
-      height="200em"
-      alt="GitHub Streak"
-    />
-  </a>
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=mosoksehbro&theme=tokyo-night&hide_border=true"
+    alt="GitHub Contribution Graph"
+  />
 </div>
 
 
