@@ -39,17 +39,17 @@
 
 ---
 
-<!-- <h2 align="center">🔥 Contribution Streak</h2>
+<h2 align="center">🔥 Contribution Streak</h2>
 
 <div align="center">
   <a href="https://github.com/mosoksehbro">
     <img 
-      src="https://streak-stats.demolab.com?user=mosoksehbro&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" 
-      height="200em" 
+      src="https://streak-stats.demolab.com?user=mosoksehbro&theme=tokyonight&hide_border=true&border_radius=12"
+      height="200em"
       alt="GitHub Streak"
     />
   </a>
-</div> -->
+</div>
 
 
 ---
