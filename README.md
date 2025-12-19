@@ -11,17 +11,18 @@
 
 <div align="center">
   <img 
-    src="https://github-readme-git-main-martinus-ade-meidyans-projects.vercel.app/api?username=mosoksehbro&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=12"
+    src="https://github-readme-git-main-martinus-ade-meidyans-projects.vercel.app/api?username=mosoksehbro&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=12&format=svg&cache_seconds=86400"
     height="180em"
     alt="GitHub Stats"
   />
 
   <img 
-    src="https://github-readme-git-main-martinus-ade-meidyans-projects.vercel.app/api/top-langs/?username=mosoksehbro&layout=compact&theme=tokyonight&hide_border=true&border_radius=12"
+    src="https://github-readme-git-main-martinus-ade-meidyans-projects.vercel.app/api/top-langs/?username=mosoksehbro&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&format=svg&cache_seconds=86400"
     height="180em"
     alt="Top Languages"
   />
 </div>
+
 
 
 ---
