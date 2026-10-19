@@ -1,12 +1,10 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=520&height=50&lines=Martin+(Deeminor);Software+Engineer;Backend+%26+Distributed+Systems;Exploring+AI+%26+Computer+Vision" alt="Martin Backyards" />
-  
-  <p align="center">
-    <strong>Crafting resilient backends, clean architectures, and scalable pipelines.</strong><br />
-    Indonesia • <a href="https://gosade.my.id">gosade.my.id</a> • <a href="https://x.com/Deeminorr">@Deeminorr</a>
-  </p>
+  <img src="./terminal_header.svg" alt="Terminal Window" width="700" />
 
   <p align="center">
+    <a href="https://gosade.my.id"><img src="https://img.shields.io/badge/Web-gosade.my.id-1a1b27?style=flat-square&logo=google-chrome&logoColor=7aa2f7" alt="Website" /></a>
+    <a href="https://x.com/Deeminorr"><img src="https://img.shields.io/badge/Twitter-@Deeminorr-1a1b27?style=flat-square&logo=x&logoColor=7aa2f7" alt="Twitter" /></a>
+    <img src="https://img.shields.io/badge/Base-Indonesia_(GMT%2B7)-1a1b27?style=flat-square&logo=google-maps&logoColor=7dcfff" alt="Base" />
     <img src="https://komarev.com/ghpvc/?username=mosoksehbro&color=7aa2f7&style=flat-square&label=views" alt="views" />
   </p>
 </div>
@@ -20,6 +18,33 @@ Backend      : Go, C#, PHP / Laravel, Node.js, Python
 Frontend     : TypeScript, React, Next.js, React Native
 Data & Infra : PostgreSQL, MySQL, Redis, Docker, Git, Linux
 Core Focus   : Clean Architecture, High-throughput ETL, REST/gRPC APIs, Vision Models
+```
+
+<br />
+
+### Architecture & Engineering Blueprint
+
+```text
+  [ Clients / Endpoints ]
+             │
+             ▼
+  ┌──────────────────────────────────────────────┐
+  │         API Gateway & Reverse Proxy          │  ──▶ TLS Termination / Rate Limiting
+  └──────────────────────┬───────────────────────┘
+                         │
+         ┌───────────────┴───────────────┐
+         ▼                               ▼
+  ┌──────────────┐                ┌──────────────┐
+  │  Core API    │ (Sync/REST)    │ Worker Pool  │ (Async Batch / ETL)
+  │  Go / C#     │                │ Python / PHP │
+  └──────┬───────┘                └──────┬───────┘
+         │                               │
+         ├───────────────┬───────────────┤
+         ▼               ▼               ▼
+  ┌──────────────┐┌──────────────┐┌──────────────┐
+  │ PostgreSQL   ││ Redis Cache  ││ Message Bus  │
+  │ Primary DB   ││ Key-Value    ││ Event Stream │
+  └──────────────┘└──────────────┘└──────────────┘
 ```
 
 <br />
@@ -60,11 +85,12 @@ Core Focus   : Clean Architecture, High-throughput ETL, REST/gRPC APIs, Vision M
 
 <br />
 
-### Collaboration & Contact
+### Collaboration & Security Footprint
 
 ```yaml
-Status       : Open for Software Engineering, System Architecture & Consulting
-Location     : Remote / Hybrid (GMT+7)
-Website      : https://gosade.my.id
-Twitter / X  : https://x.com/Deeminorr
+Availability   : Open for High-Impact Backend Architecture, Distributed Systems & Consulting
+Timezone       : Asia/Jakarta (WIB • GMT+7)
+Direct Reach   : martinusade333@gmail.com • https://gosade.my.id
+SSH PubKey     : SHA256:gE4b8eTfTKH74dIKeC7xieezZvKQ3JvbhO49OoaMnkk (RSA 4096)
+Code Integrity : Signed commits & verified git workflows
 ```

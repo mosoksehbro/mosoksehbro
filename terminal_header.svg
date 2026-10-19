@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="210" viewBox="0 0 700 210" fill="none">
+  <defs>
+    <linearGradient id="term-grad" x1="0" y1="0" x2="700" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#161622" />
+      <stop offset="100%" stop-color="#1a1b27" />
+    </linearGradient>
+  </defs>
+
+  <!-- Terminal Window Frame -->
+  <rect x="0.5" y="0.5" width="699" height="209" rx="8" fill="url(#term-grad)" stroke="#24283b" stroke-width="1" />
+
+  <!-- Terminal Header Bar -->
+  <rect x="0.5" y="0.5" width="699" height="34" rx="8" fill="#13141f" />
+  <rect x="0.5" y="24" width="699" height="11" fill="#13141f" />
+  <line x1="0.5" y1="34.5" x2="699.5" y2="34.5" stroke="#24283b" />
+
+  <!-- Traffic Lights -->
+  <circle cx="20" cy="18" r="6" fill="#f7768e" />
+  <circle cx="38" cy="18" r="6" fill="#e0af68" />
+  <circle cx="56" cy="18" r="6" fill="#9ece6a" />
+
+  <!-- Title / Tab -->
+  <text x="350" y="22" text-anchor="middle" fill="#565f89" font-family="-apple-system, BlinkMacSystemFont, 'Fira Code', monospace" font-size="12px" font-weight="600">martin@gosade:~ (zsh)</text>
+
+  <!-- Terminal Body Content -->
+  <g transform="translate(25, 60)" font-family="'Fira Code', monospace, -apple-system" font-size="13px">
+    <!-- Prompt 1 -->
+    <text x="0" y="0" fill="#7aa2f7" font-weight="600">➜</text>
+    <text x="20" y="0" fill="#bb9af7" font-weight="600">~</text>
+    <text x="38" y="0" fill="#c0caf5">whoami</text>
+
+    <text x="20" y="24" fill="#7dcfff" font-weight="600">Martin (Deeminor)</text>
+    <text x="180" y="24" fill="#565f89">|</text>
+    <text x="195" y="24" fill="#c0caf5">Software Engineer &amp; Systems Architect</text>
+
+    <!-- Prompt 2 -->
+    <text x="0" y="56" fill="#7aa2f7" font-weight="600">➜</text>
+    <text x="20" y="56" fill="#bb9af7" font-weight="600">~</text>
+    <text x="38" y="56" fill="#c0caf5">cat /etc/core-mandate.conf</text>
+
+    <text x="20" y="80" fill="#9ece6a">"Designing resilient distributed backends, clean architectures, and high-throughput pipelines."</text>
+
+    <!-- Status Line (Neovim style) -->
+    <g transform="translate(0, 110)">
+      <rect x="-10" y="0" width="670" height="24" rx="4" fill="#13141f" />
+      <rect x="-10" y="0" width="70" height="24" rx="4" fill="#7aa2f7" />
+      <text x="25" y="16" text-anchor="middle" fill="#13141f" font-weight="700" font-size="11px">NORMAL</text>
+      <text x="80" y="16" fill="#7dcfff" font-size="11px">gosade.my.id</text>
+      <text x="530" y="16" fill="#565f89" font-size="11px">utf-8 | GMT+7 | live</text>
+    </g>
+  </g>
+</svg>
