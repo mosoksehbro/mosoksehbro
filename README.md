@@ -63,7 +63,7 @@ Core Focus   : Clean Architecture, High-throughput ETL, REST/gRPC APIs, Vision M
 ### Collaboration & Contact
 
 ```yaml
-Status       : Open for Backend Engineering, System Architecture & Consulting
+Status       : Open for Software Engineering, System Architecture & Consulting
 Location     : Remote / Hybrid (GMT+7)
 Website      : https://gosade.my.id
 Twitter / X  : https://x.com/Deeminorr
