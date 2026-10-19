@@ -27,19 +27,17 @@ Focus        : Clean Architecture, High-throughput ETL, RESTful APIs, Vision Mod
 ### Performance & Activity
 
 <div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mosoksehbro&theme=tokyonight" alt="GitHub Profile Summary" width="700" />
+  
+  <br /><br />
+
   <table border="0" cellspacing="0" cellpadding="0">
     <tr align="center">
       <td valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=mosoksehbro&show_icons=true&hide=stars&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5&icon_color=7dcfff" alt="GitHub Stats" width="410" />
+        <img src="https://streak-stats.demolab.com/?user=mosoksehbro&theme=tokyonight&hide_border=true&background=1a1b27&ring=7AA2F7&fire=7DCFFF&currStreakNum=C0CAF5&sideNums=C0CAF5&sideLabels=7AA2F7&dates=565F89" alt="Streak Stats" width="370" />
       </td>
       <td valign="top">
-        <img src="https://streak-stats.demolab.com/?user=mosoksehbro&theme=tokyonight&hide_border=true&background=0D1117&ring=7AA2F7&fire=7DCFFF&currStreakNum=C0CAF5&sideNums=C0CAF5&sideLabels=7AA2F7&dates=565F89" alt="Streak Stats" width="410" />
-      </td>
-    </tr>
-    <tr align="center">
-      <td colspan="2" align="center">
-        <br />
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mosoksehbro&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5" alt="Top Languages" width="380" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mosoksehbro&hide=blade&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5" alt="Top Languages" width="340" />
       </td>
     </tr>
   </table>
