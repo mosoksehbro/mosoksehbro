@@ -1,0 +1,163 @@
+{
+  "user": {
+    "login": "mosoksehbro",
+    "name": "Deeminor",
+    "createdAt": "2021-03-16T10:48:42Z",
+    "location": "Indonesia"
+  },
+  "summary": {
+    "total_contributions": 1437,
+    "current_streak": 3,
+    "longest_streak": 19,
+    "public_repos": 9,
+    "private_repos": 26,
+    "collab_repos": 14
+  },
+  "total_bytes": 75200208,
+  "languages": [
+    {
+      "name": "JavaScript",
+      "bytes": 31217567,
+      "percentage": 41.51,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "C#",
+      "bytes": 21014574,
+      "percentage": 27.94,
+      "color": "#7355dd"
+    },
+    {
+      "name": "PHP",
+      "bytes": 18057532,
+      "percentage": 24.01,
+      "color": "#4F5D95"
+    },
+    {
+      "name": "Go",
+      "bytes": 1664033,
+      "percentage": 2.21,
+      "color": "#00ADD8"
+    },
+    {
+      "name": "Python",
+      "bytes": 1474082,
+      "percentage": 1.96,
+      "color": "#3572A5"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 943457,
+      "percentage": 1.25,
+      "color": "#3178c6"
+    },
+    {
+      "name": "Hack",
+      "bytes": 185199,
+      "percentage": 0.25,
+      "color": "#878787"
+    },
+    {
+      "name": "SCSS",
+      "bytes": 174564,
+      "percentage": 0.23,
+      "color": "#c6538c"
+    },
+    {
+      "name": "Less",
+      "bytes": 144948,
+      "percentage": 0.19,
+      "color": "#1d365d"
+    },
+    {
+      "name": "Java",
+      "bytes": 88475,
+      "percentage": 0.12,
+      "color": "#b07219"
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 79765,
+      "percentage": 0.11,
+      "color": "#012456"
+    },
+    {
+      "name": "Shell",
+      "bytes": 33204,
+      "percentage": 0.04,
+      "color": "#89e051"
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 32726,
+      "percentage": 0.04,
+      "color": "#384d54"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 25083,
+      "percentage": 0.03,
+      "color": "#336790"
+    },
+    {
+      "name": "Rich Text Format",
+      "bytes": 24781,
+      "percentage": 0.03,
+      "color": "#7aa2f7"
+    },
+    {
+      "name": "ActionScript",
+      "bytes": 15982,
+      "percentage": 0.02,
+      "color": "#882B0F"
+    },
+    {
+      "name": "Rust",
+      "bytes": 13946,
+      "percentage": 0.02,
+      "color": "#dea584"
+    },
+    {
+      "name": "Perl",
+      "bytes": 2800,
+      "percentage": 0.0,
+      "color": "#0298c3"
+    },
+    {
+      "name": "Lasso",
+      "bytes": 2280,
+      "percentage": 0.0,
+      "color": "#999999"
+    },
+    {
+      "name": "Classic ASP",
+      "bytes": 1632,
+      "percentage": 0.0,
+      "color": "#6a40fd"
+    },
+    {
+      "name": "Ruby",
+      "bytes": 1276,
+      "percentage": 0.0,
+      "color": "#701516"
+    },
+    {
+      "name": "ASP.NET",
+      "bytes": 1131,
+      "percentage": 0.0,
+      "color": "#9400ff"
+    },
+    {
+      "name": "Batchfile",
+      "bytes": 603,
+      "percentage": 0.0,
+      "color": "#C1F12E"
+    },
+    {
+      "name": "Makefile",
+      "bytes": 568,
+      "percentage": 0.0,
+      "color": "#427819"
+    }
+  ]
+}
