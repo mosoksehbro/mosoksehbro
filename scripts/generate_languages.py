@@ -18,13 +18,13 @@ LANG_COLORS = {
     "JavaScript": "#F1E05A",
     "TypeScript": "#3178C6",
     "Python": "#3572A5",
+    "C#": "#7355DD",
     "HTML": "#E34C26",
     "CSS": "#563D7C",
     "Rust": "#DEA584",
     "Java": "#B07219",
     "C": "#555555",
     "C++": "#F34B7D",
-    "C#": "#178600",
     "Ruby": "#701516",
     "Dart": "#00B4AB",
     "Swift": "#F05138",
@@ -45,12 +45,17 @@ query($cursor: String) {
     createdAt
     location
     contributionsCollection {
+      totalCommitContributions
+      totalPullRequestContributions
+      totalIssueContributions
+      totalRepositoriesWithContributedCommits
       contributionCalendar {
         totalContributions
         weeks {
           contributionDays {
             contributionCount
             date
+            weekday
           }
         }
       }
@@ -97,25 +102,28 @@ def graphql_request(cursor=None):
     with urllib.request.urlopen(req) as res:
         return json.loads(res.read().decode("utf-8"))
 
-def calculate_streak(weeks):
+def calculate_productivity(weeks):
     all_days = []
+    # Weekday breakdown: Sunday=0 to Saturday=6
+    weekday_counts = [0] * 7
+    weekday_names = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+
     for week in weeks:
         for day in week.get("contributionDays", []):
+            count = day["contributionCount"]
+            wday = day.get("weekday", 0)
+            weekday_counts[wday] += count
             all_days.append({
                 "date": day["date"],
-                "count": day["contributionCount"]
+                "count": count
             })
-    
-    # Sort by date
+
     all_days.sort(key=lambda d: d["date"])
-    
     current_streak = 0
     longest_streak = 0
     temp_streak = 0
-    
     today_str = date.today().isoformat()
-    
-    # Calculate longest streak
+
     for day in all_days:
         if day["count"] > 0:
             temp_streak += 1
@@ -124,13 +132,10 @@ def calculate_streak(weeks):
         else:
             temp_streak = 0
 
-    # Calculate current streak backwards from today/yesterday
-    # Reverse days
     rev_days = list(reversed(all_days))
     started = False
     for day in rev_days:
         if not started:
-            # allow today to be 0 if today has no commits yet, check yesterday
             if day["date"] == today_str and day["count"] == 0:
                 continue
             if day["count"] > 0:
@@ -143,22 +148,35 @@ def calculate_streak(weeks):
                 current_streak += 1
             else:
                 break
-                
-    return current_streak, max(longest_streak, current_streak)
+
+    # Find peak day
+    max_wday_val = max(weekday_counts) if sum(weekday_counts) > 0 else 1
+    weekday_distribution = []
+    for i in range(7):
+        weekday_distribution.append({
+            "day": weekday_names[i],
+            "count": weekday_counts[i],
+            "ratio": round(weekday_counts[i] / max_wday_val, 2)
+        })
+
+    return current_streak, max(longest_streak, current_streak), weekday_distribution
 
 def fetch_data():
     languages_total = {}
     lang_color_map = {}
     has_next = True
     cursor = None
-    
+
     public_count = 0
     private_count = 0
     collab_count = 0
-    
+
     user_info = {}
     weeks_data = []
     total_contributions = 0
+    total_commits = 0
+    total_prs = 0
+    total_issues = 0
 
     while has_next:
         result = graphql_request(cursor)
@@ -174,7 +192,12 @@ def fetch_data():
                 "createdAt": viewer.get("createdAt"),
                 "location": viewer.get("location") or "Indonesia"
             }
-            cal = viewer.get("contributionsCollection", {}).get("contributionCalendar", {})
+            cc = viewer.get("contributionsCollection", {})
+            total_commits = cc.get("totalCommitContributions", 0)
+            total_prs = cc.get("totalPullRequestContributions", 0)
+            total_issues = cc.get("totalIssueContributions", 0)
+
+            cal = cc.get("contributionCalendar", {})
             total_contributions = cal.get("totalContributions", 0)
             weeks_data = cal.get("weeks", [])
 
@@ -187,8 +210,7 @@ def fetch_data():
 
             is_private = repo.get("isPrivate", False)
             owner = repo.get("owner", {}).get("login", "")
-            
-            # Categorize repo
+
             if owner.lower() == user_info["login"].lower():
                 if is_private:
                     private_count += 1
@@ -214,13 +236,17 @@ def fetch_data():
         has_next = page_info.get("hasNextPage", False)
         cursor = page_info.get("endCursor")
 
-    curr_streak, long_streak = calculate_streak(weeks_data)
+    curr_streak, long_streak, wday_dist = calculate_productivity(weeks_data)
 
     stats = {
         "user": user_info,
         "total_contributions": total_contributions,
+        "total_commits": total_commits,
+        "total_prs": total_prs,
+        "total_issues": total_issues,
         "current_streak": curr_streak,
         "longest_streak": long_streak,
+        "weekday_distribution": wday_dist,
         "public_repos": public_count,
         "private_repos": private_count,
         "collab_repos": collab_count,
@@ -235,8 +261,7 @@ def generate_profile_card_svg(stats):
     pub = stats["public_repos"]
     priv = stats["private_repos"]
     collab = stats["collab_repos"]
-    
-    # Calculate account age
+
     created_year = 2021
     if user.get("createdAt"):
         created_year = int(user["createdAt"][:4])
@@ -334,6 +359,42 @@ def generate_streak_svg(stats):
   </g>
 </svg>"""
 
+def generate_productivity_svg(stats):
+    dist = stats["weekday_distribution"]
+    width = 700
+    height = 110
+    bg = "#1a1b27"
+    title_color = "#7aa2f7"
+    text_color = "#c0caf5"
+    bar_color = "#7aa2f7"
+
+    bars_svg = []
+    start_x = 35
+    gap = 92
+
+    for i, item in enumerate(dist):
+        x = start_x + (i * gap)
+        bar_height = max(4, int(42 * item["ratio"]))
+        y_bar = 82 - bar_height
+        bars_svg.append(f"""
+    <g transform="translate({x}, 0)">
+      <rect x="0" y="{y_bar}" width="48" height="{bar_height}" rx="3" fill="{bar_color}" opacity="{0.4 + (0.6 * item['ratio']):.2f}" />
+      <text x="24" y="98" text-anchor="middle" fill="{text_color}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">{item['day']}</text>
+      <text x="24" y="{y_bar - 4}" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">{item['count']}</text>
+    </g>""")
+
+    all_bars = "\n".join(bars_svg)
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">
+  <rect x="0.5" y="0.5" rx="5" ry="5" width="{width - 1}" height="{height - 1}" fill="{bg}" stroke="#24283b" stroke-width="1" />
+  <g transform="translate(30, 25)">
+    <text x="0" y="0" fill="{title_color}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14px" font-weight="700">Weekly Activity Cadence (Commit &amp; PR Distribution)</text>
+  </g>
+  <g>
+{all_bars}
+  </g>
+</svg>"""
+
 def generate_languages_svg(lang_data, colors):
     bg_color = "#1a1b27"
     title_color = "#7aa2f7"
@@ -388,11 +449,15 @@ def main():
         "user": stats["user"],
         "summary": {
             "total_contributions": stats["total_contributions"],
+            "total_commits": stats["total_commits"],
+            "total_prs": stats["total_prs"],
+            "total_issues": stats["total_issues"],
             "current_streak": stats["current_streak"],
             "longest_streak": stats["longest_streak"],
             "public_repos": stats["public_repos"],
             "private_repos": stats["private_repos"],
-            "collab_repos": stats["collab_repos"]
+            "collab_repos": stats["collab_repos"],
+            "weekday_distribution": stats["weekday_distribution"]
         },
         "total_bytes": total_bytes,
         "languages": []
@@ -413,19 +478,25 @@ def main():
         json.dump(output_json, f, indent=2)
     print("Saved metrics.json")
 
-    # 2. Output profile_card.svg (includes Public, Private, Collaborator counts)
+    # 2. Output profile_card.svg
     profile_svg = generate_profile_card_svg(stats)
     with open("profile_card.svg", "w", encoding="utf-8") as f:
         f.write(profile_svg)
     print("Saved profile_card.svg")
 
-    # 3. Output streak.svg (calculated including private/collab streak)
+    # 3. Output streak.svg
     streak_svg = generate_streak_svg(stats)
     with open("streak.svg", "w", encoding="utf-8") as f:
         f.write(streak_svg)
     print("Saved streak.svg")
 
-    # 4. Output languages.svg
+    # 4. Output productivity.svg
+    cadence_svg = generate_productivity_svg(stats)
+    with open("productivity.svg", "w", encoding="utf-8") as f:
+        f.write(cadence_svg)
+    print("Saved productivity.svg")
+
+    # 5. Output languages.svg
     langs_svg = generate_languages_svg(lang_data, colors)
     with open("languages.svg", "w", encoding="utf-8") as f:
         f.write(langs_svg)
