@@ -6,14 +6,54 @@
     "location": "Indonesia"
   },
   "summary": {
-    "total_contributions": 1437,
+    "total_contributions": 1438,
+    "total_commits": 55,
+    "total_prs": 1,
+    "total_issues": 0,
     "current_streak": 3,
     "longest_streak": 19,
     "public_repos": 9,
     "private_repos": 26,
-    "collab_repos": 14
+    "collab_repos": 14,
+    "weekday_distribution": [
+      {
+        "day": "Sun",
+        "count": 133,
+        "ratio": 0.44
+      },
+      {
+        "day": "Mon",
+        "count": 302,
+        "ratio": 1.0
+      },
+      {
+        "day": "Tue",
+        "count": 211,
+        "ratio": 0.7
+      },
+      {
+        "day": "Wed",
+        "count": 213,
+        "ratio": 0.71
+      },
+      {
+        "day": "Thu",
+        "count": 271,
+        "ratio": 0.9
+      },
+      {
+        "day": "Fri",
+        "count": 160,
+        "ratio": 0.53
+      },
+      {
+        "day": "Sat",
+        "count": 148,
+        "ratio": 0.49
+      }
+    ]
   },
-  "total_bytes": 75200208,
+  "total_bytes": 75203104,
   "languages": [
     {
       "name": "JavaScript",
@@ -41,7 +81,7 @@
     },
     {
       "name": "Python",
-      "bytes": 1474082,
+      "bytes": 1476978,
       "percentage": 1.96,
       "color": "#3572A5"
     },
