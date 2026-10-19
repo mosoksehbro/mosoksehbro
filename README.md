@@ -43,8 +43,4 @@ Focus        : Clean Architecture, High-throughput ETL, RESTful APIs, Vision Mod
       </td>
     </tr>
   </table>
-
-  <br />
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mosoksehbro&theme=tokyo-night&hide_border=true&bg_color=0d1117" alt="Activity Graph" width="100%" />
 </div>
