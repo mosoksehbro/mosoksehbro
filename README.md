@@ -88,7 +88,7 @@ Core Focus   : Clean Architecture, High-throughput ETL, REST/gRPC APIs, Vision M
 ### Collaboration & Security Footprint
 
 ```yaml
-Availability   : Open for High-Impact Backend Architecture, Distributed Systems & Consulting
+Availability   : Open for High-Impact Software Architecture, Distributed Systems & Consulting
 Timezone       : Asia/Jakarta (WIB • GMT+7)
 Direct Reach   : martinusade333@gmail.com • https://gosade.my.id
 SSH PubKey     : SHA256:gE4b8eTfTKH74dIKeC7xieezZvKQ3JvbhO49OoaMnkk (RSA 4096)
