@@ -37,7 +37,7 @@ Focus        : Clean Architecture, High-throughput ETL, RESTful APIs, Vision Mod
         <img src="https://streak-stats.demolab.com/?user=mosoksehbro&theme=tokyonight&hide_border=true&background=1a1b27&ring=7AA2F7&fire=7DCFFF&currStreakNum=C0CAF5&sideNums=C0CAF5&sideLabels=7AA2F7&dates=565F89" alt="Streak Stats" width="370" />
       </td>
       <td valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mosoksehbro&hide=blade&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5" alt="Top Languages" width="340" />
+        <img src="./languages.svg" alt="Top Languages" width="340" />
       </td>
     </tr>
   </table>
