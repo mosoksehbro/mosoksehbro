@@ -1,10 +1,9 @@
-name: Update Language Metrics
+name: Update Metrics & Analytics
 
 on:
   schedule:
-    # Runs every day at midnight UTC
     - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,7 +20,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Generate Language Metrics
+      - name: Generate All Metrics
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
@@ -31,5 +30,5 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add languages.json languages.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(metrics): update language metrics [skip ci]" && git push)
+          git add metrics.json profile_card.svg streak.svg languages.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(metrics): update full metrics suite [skip ci]" && git push)
