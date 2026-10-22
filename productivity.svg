@@ -24,9 +24,9 @@
     </g>
 
     <g transform="translate(311, 0)">
-      <rect x="0" y="54" width="48" height="28" rx="3" fill="#7aa2f7" opacity="0.81" />
+      <rect x="0" y="53" width="48" height="29" rx="3" fill="#7aa2f7" opacity="0.83" />
       <text x="24" y="98" text-anchor="middle" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">Wed</text>
-      <text x="24" y="50" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">213</text>
+      <text x="24" y="49" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">220</text>
     </g>
 
     <g transform="translate(403, 0)">
