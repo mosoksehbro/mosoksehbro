@@ -7,13 +7,13 @@
     <!-- Contributions -->
     <g transform="translate(0, 0)">
       <circle cx="6" cy="6" r="5" fill="#bf91f3" />
-      <text x="22" y="10" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14px" font-weight="500">1,455 Contributions in last year</text>
+      <text x="22" y="10" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14px" font-weight="500">1,456 Contributions in last year</text>
     </g>
 
     <!-- Repos detail: Public, Private, Collaborator -->
     <g transform="translate(0, 30)">
       <circle cx="6" cy="6" r="5" fill="#bf91f3" />
-      <text x="22" y="10" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14px" font-weight="500">9 Public • 26 Private • 14 Collaborator Repos</text>
+      <text x="22" y="10" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14px" font-weight="500">9 Public • 27 Private • 14 Collaborator Repos</text>
     </g>
 
     <!-- Joined age -->
@@ -38,7 +38,7 @@
     <text x="210" y="60" text-anchor="end" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700">9</text>
 
     <text x="20" y="85" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px">Private Repositories</text>
-    <text x="210" y="85" text-anchor="end" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700">26</text>
+    <text x="210" y="85" text-anchor="end" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700">27</text>
 
     <text x="20" y="110" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px">Collaborator / Orgs</text>
     <text x="210" y="110" text-anchor="end" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700">14</text>
