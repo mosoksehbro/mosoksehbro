@@ -36,15 +36,15 @@
     </g>
 
     <g transform="translate(495, 0)">
-      <rect x="0" y="61" width="48" height="21" rx="3" fill="#7aa2f7" opacity="0.71" />
+      <rect x="0" y="60" width="48" height="22" rx="3" fill="#7aa2f7" opacity="0.72" />
       <text x="24" y="98" text-anchor="middle" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">Fri</text>
-      <text x="24" y="57" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">160</text>
+      <text x="24" y="56" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">164</text>
     </g>
 
     <g transform="translate(587, 0)">
       <rect x="0" y="62" width="48" height="20" rx="3" fill="#7aa2f7" opacity="0.69" />
       <text x="24" y="98" text-anchor="middle" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">Sat</text>
-      <text x="24" y="58" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">148</text>
+      <text x="24" y="58" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">149</text>
     </g>
   </g>
 </svg>
