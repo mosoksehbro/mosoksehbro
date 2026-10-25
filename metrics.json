@@ -6,11 +6,11 @@
     "location": "Indonesia"
   },
   "summary": {
-    "total_contributions": 1461,
+    "total_contributions": 1534,
     "total_commits": 59,
     "total_prs": 1,
     "total_issues": 0,
-    "current_streak": 8,
+    "current_streak": 9,
     "longest_streak": 19,
     "public_repos": 9,
     "private_repos": 27,
@@ -18,89 +18,89 @@
     "weekday_distribution": [
       {
         "day": "Sun",
-        "count": 133,
-        "ratio": 0.43
+        "count": 153,
+        "ratio": 0.48
       },
       {
         "day": "Mon",
-        "count": 309,
+        "count": 320,
         "ratio": 1.0
       },
       {
         "day": "Tue",
-        "count": 214,
-        "ratio": 0.69
+        "count": 218,
+        "ratio": 0.68
       },
       {
         "day": "Wed",
-        "count": 220,
-        "ratio": 0.71
+        "count": 217,
+        "ratio": 0.68
       },
       {
         "day": "Thu",
-        "count": 272,
-        "ratio": 0.88
+        "count": 266,
+        "ratio": 0.83
       },
       {
         "day": "Fri",
-        "count": 164,
-        "ratio": 0.53
+        "count": 158,
+        "ratio": 0.49
       },
       {
         "day": "Sat",
-        "count": 149,
-        "ratio": 0.48
+        "count": 169,
+        "ratio": 0.53
       }
     ]
   },
-  "total_bytes": 66423599,
+  "total_bytes": 67892184,
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 30748276,
-      "percentage": 46.29,
+      "bytes": 30773521,
+      "percentage": 45.33,
       "color": "#f1e05a"
     },
     {
       "name": "PHP",
       "bytes": 18057532,
-      "percentage": 27.19,
+      "percentage": 26.6,
       "color": "#4F5D95"
     },
     {
       "name": "C#",
-      "bytes": 12685562,
-      "percentage": 19.1,
+      "bytes": 12913644,
+      "percentage": 19.02,
       "color": "#7355dd"
     },
     {
+      "name": "TypeScript",
+      "bytes": 2039567,
+      "percentage": 3.0,
+      "color": "#3178c6"
+    },
+    {
       "name": "Go",
-      "bytes": 1664810,
-      "percentage": 2.51,
+      "bytes": 1672570,
+      "percentage": 2.46,
       "color": "#00ADD8"
     },
     {
       "name": "Python",
-      "bytes": 1219754,
+      "bytes": 1247413,
       "percentage": 1.84,
       "color": "#3572A5"
     },
     {
-      "name": "TypeScript",
-      "bytes": 951428,
-      "percentage": 1.43,
-      "color": "#3178c6"
-    },
-    {
       "name": "Vue",
       "bytes": 263157,
-      "percentage": 0.4,
+      "percentage": 0.39,
       "color": "#41b883"
     },
     {
       "name": "Hack",
       "bytes": 185199,
-      "percentage": 0.28,
+      "percentage": 0.27,
       "color": "#878787"
     },
     {
@@ -110,16 +110,16 @@
       "color": "#c6538c"
     },
     {
-      "name": "Less",
-      "bytes": 144948,
+      "name": "Java",
+      "bytes": 152192,
       "percentage": 0.22,
-      "color": "#1d365d"
+      "color": "#b07219"
     },
     {
-      "name": "Java",
-      "bytes": 88475,
-      "percentage": 0.13,
-      "color": "#b07219"
+      "name": "Less",
+      "bytes": 144948,
+      "percentage": 0.21,
+      "color": "#1d365d"
     },
     {
       "name": "PowerShell",
@@ -129,21 +129,21 @@
     },
     {
       "name": "Shell",
-      "bytes": 37321,
-      "percentage": 0.06,
+      "bytes": 46028,
+      "percentage": 0.07,
       "color": "#89e051"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 44359,
+      "percentage": 0.07,
+      "color": "#336790"
     },
     {
       "name": "Dockerfile",
       "bytes": 32726,
       "percentage": 0.05,
       "color": "#384d54"
-    },
-    {
-      "name": "PLpgSQL",
-      "bytes": 25083,
-      "percentage": 0.04,
-      "color": "#336790"
     },
     {
       "name": "Rich Text Format",

@@ -7,55 +7,55 @@
 
     <g transform="translate(0, 0)">
       <text x="2" y="15" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="500">JavaScript</text>
-      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">46.29%</text>
+      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">45.33%</text>
       <svg width="205" x="0" y="25">
         <rect rx="4" ry="4" x="0" y="0" width="205" height="7" fill="#24283b" />
-        <rect rx="4" ry="4" x="0" y="0" width="94" height="7" fill="#f1e05a" />
+        <rect rx="4" ry="4" x="0" y="0" width="92" height="7" fill="#f1e05a" />
       </svg>
     </g>
 
     <g transform="translate(0, 40)">
       <text x="2" y="15" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="500">PHP</text>
-      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">27.19%</text>
+      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">26.60%</text>
       <svg width="205" x="0" y="25">
         <rect rx="4" ry="4" x="0" y="0" width="205" height="7" fill="#24283b" />
-        <rect rx="4" ry="4" x="0" y="0" width="55" height="7" fill="#4F5D95" />
+        <rect rx="4" ry="4" x="0" y="0" width="54" height="7" fill="#4F5D95" />
       </svg>
     </g>
 
     <g transform="translate(0, 80)">
       <text x="2" y="15" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="500">C#</text>
-      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">19.10%</text>
+      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">19.02%</text>
       <svg width="205" x="0" y="25">
         <rect rx="4" ry="4" x="0" y="0" width="205" height="7" fill="#24283b" />
-        <rect rx="4" ry="4" x="0" y="0" width="39" height="7" fill="#7355dd" />
+        <rect rx="4" ry="4" x="0" y="0" width="38" height="7" fill="#7355dd" />
       </svg>
     </g>
 
     <g transform="translate(0, 120)">
+      <text x="2" y="15" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="500">TypeScript</text>
+      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">3.00%</text>
+      <svg width="205" x="0" y="25">
+        <rect rx="4" ry="4" x="0" y="0" width="205" height="7" fill="#24283b" />
+        <rect rx="4" ry="4" x="0" y="0" width="6" height="7" fill="#3178c6" />
+      </svg>
+    </g>
+
+    <g transform="translate(0, 160)">
       <text x="2" y="15" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="500">Go</text>
-      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">2.51%</text>
+      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">2.46%</text>
       <svg width="205" x="0" y="25">
         <rect rx="4" ry="4" x="0" y="0" width="205" height="7" fill="#24283b" />
         <rect rx="4" ry="4" x="0" y="0" width="5" height="7" fill="#00ADD8" />
       </svg>
     </g>
 
-    <g transform="translate(0, 160)">
+    <g transform="translate(0, 200)">
       <text x="2" y="15" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="500">Python</text>
       <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">1.84%</text>
       <svg width="205" x="0" y="25">
         <rect rx="4" ry="4" x="0" y="0" width="205" height="7" fill="#24283b" />
         <rect rx="4" ry="4" x="0" y="0" width="4" height="7" fill="#3572A5" />
-      </svg>
-    </g>
-
-    <g transform="translate(0, 200)">
-      <text x="2" y="15" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="500">TypeScript</text>
-      <text x="225" y="34" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px" font-weight="400">1.43%</text>
-      <svg width="205" x="0" y="25">
-        <rect rx="4" ry="4" x="0" y="0" width="205" height="7" fill="#24283b" />
-        <rect rx="4" ry="4" x="0" y="0" width="4" height="7" fill="#3178c6" />
       </svg>
     </g>
   </g>
