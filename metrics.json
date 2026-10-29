@@ -10,7 +10,7 @@
     "total_commits": 59,
     "total_prs": 1,
     "total_issues": 0,
-    "current_streak": 11,
+    "current_streak": 0,
     "longest_streak": 19,
     "public_repos": 9,
     "private_repos": 28,
@@ -53,36 +53,36 @@
       }
     ]
   },
-  "total_bytes": 68796479,
+  "total_bytes": 69091721,
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 30981598,
-      "percentage": 45.03,
+      "bytes": 30981589,
+      "percentage": 44.84,
       "color": "#f1e05a"
     },
     {
       "name": "PHP",
       "bytes": 18057532,
-      "percentage": 26.25,
+      "percentage": 26.14,
       "color": "#4F5D95"
     },
     {
       "name": "C#",
-      "bytes": 13349895,
-      "percentage": 19.4,
+      "bytes": 13645146,
+      "percentage": 19.75,
       "color": "#7355dd"
     },
     {
       "name": "TypeScript",
       "bytes": 2127915,
-      "percentage": 3.09,
+      "percentage": 3.08,
       "color": "#3178c6"
     },
     {
       "name": "Go",
       "bytes": 1824849,
-      "percentage": 2.65,
+      "percentage": 2.64,
       "color": "#00ADD8"
     },
     {
