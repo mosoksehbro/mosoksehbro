@@ -6,7 +6,7 @@
     "location": "Indonesia"
   },
   "summary": {
-    "total_contributions": 1628,
+    "total_contributions": 1612,
     "total_commits": 59,
     "total_prs": 1,
     "total_issues": 0,
@@ -53,41 +53,41 @@
       }
     ]
   },
-  "total_bytes": 70998807,
+  "total_bytes": 71184749,
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 31274268,
-      "percentage": 44.05,
+      "bytes": 31290039,
+      "percentage": 43.96,
       "color": "#f1e05a"
     },
     {
       "name": "PHP",
       "bytes": 18057532,
-      "percentage": 25.43,
+      "percentage": 25.37,
       "color": "#4F5D95"
     },
     {
       "name": "C#",
-      "bytes": 14822023,
-      "percentage": 20.88,
+      "bytes": 14990269,
+      "percentage": 21.06,
       "color": "#7355dd"
     },
     {
       "name": "TypeScript",
       "bytes": 2127915,
-      "percentage": 3.0,
+      "percentage": 2.99,
       "color": "#3178c6"
     },
     {
       "name": "Go",
       "bytes": 1824849,
-      "percentage": 2.57,
+      "percentage": 2.56,
       "color": "#00ADD8"
     },
     {
       "name": "Python",
-      "bytes": 1478794,
+      "bytes": 1480719,
       "percentage": 2.08,
       "color": "#3572A5"
     },
