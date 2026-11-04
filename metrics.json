@@ -53,42 +53,42 @@
       }
     ]
   },
-  "total_bytes": 72445531,
+  "total_bytes": 72569507,
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 31291134,
-      "percentage": 43.19,
+      "bytes": 31282312,
+      "percentage": 43.11,
       "color": "#f1e05a"
     },
     {
       "name": "PHP",
       "bytes": 18470829,
-      "percentage": 25.5,
+      "percentage": 25.45,
       "color": "#4F5D95"
     },
     {
       "name": "C#",
-      "bytes": 15332296,
-      "percentage": 21.16,
+      "bytes": 15406137,
+      "percentage": 21.23,
       "color": "#7355dd"
     },
     {
       "name": "TypeScript",
       "bytes": 2620579,
-      "percentage": 3.62,
+      "percentage": 3.61,
       "color": "#3178c6"
     },
     {
       "name": "Go",
       "bytes": 1824849,
-      "percentage": 2.52,
+      "percentage": 2.51,
       "color": "#00ADD8"
     },
     {
       "name": "Python",
-      "bytes": 1487748,
-      "percentage": 2.05,
+      "bytes": 1500729,
+      "percentage": 2.07,
       "color": "#3572A5"
     },
     {
@@ -96,6 +96,12 @@
       "bytes": 263157,
       "percentage": 0.36,
       "color": "#41b883"
+    },
+    {
+      "name": "C++",
+      "bytes": 204604,
+      "percentage": 0.28,
+      "color": "#f34b7d"
     },
     {
       "name": "Java",
@@ -114,12 +120,6 @@
       "bytes": 174564,
       "percentage": 0.24,
       "color": "#c6538c"
-    },
-    {
-      "name": "C++",
-      "bytes": 158628,
-      "percentage": 0.22,
-      "color": "#f34b7d"
     },
     {
       "name": "Less",
