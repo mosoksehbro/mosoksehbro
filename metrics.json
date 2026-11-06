@@ -53,42 +53,42 @@
       }
     ]
   },
-  "total_bytes": 72717081,
+  "total_bytes": 73507807,
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 31282312,
-      "percentage": 43.02,
+      "bytes": 31881405,
+      "percentage": 43.37,
       "color": "#f1e05a"
     },
     {
       "name": "PHP",
       "bytes": 18470829,
-      "percentage": 25.4,
+      "percentage": 25.13,
       "color": "#4F5D95"
     },
     {
       "name": "C#",
-      "bytes": 15436402,
-      "percentage": 21.23,
+      "bytes": 15577343,
+      "percentage": 21.19,
       "color": "#7355dd"
     },
     {
       "name": "TypeScript",
       "bytes": 2651931,
-      "percentage": 3.65,
+      "percentage": 3.61,
       "color": "#3178c6"
     },
     {
       "name": "Go",
       "bytes": 1845280,
-      "percentage": 2.54,
+      "percentage": 2.51,
       "color": "#00ADD8"
     },
     {
       "name": "Python",
-      "bytes": 1557193,
-      "percentage": 2.14,
+      "bytes": 1582933,
+      "percentage": 2.15,
       "color": "#3572A5"
     },
     {
@@ -99,8 +99,8 @@
     },
     {
       "name": "C++",
-      "bytes": 205698,
-      "percentage": 0.28,
+      "bytes": 224960,
+      "percentage": 0.31,
       "color": "#f34b7d"
     },
     {
@@ -129,20 +129,20 @@
     },
     {
       "name": "PowerShell",
-      "bytes": 79765,
+      "bytes": 80624,
       "percentage": 0.11,
       "color": "#012456"
     },
     {
       "name": "Shell",
-      "bytes": 68220,
-      "percentage": 0.09,
+      "bytes": 72204,
+      "percentage": 0.1,
       "color": "#89e051"
     },
     {
       "name": "PLpgSQL",
       "bytes": 47308,
-      "percentage": 0.07,
+      "percentage": 0.06,
       "color": "#336790"
     },
     {
@@ -194,6 +194,12 @@
       "color": "#6a40fd"
     },
     {
+      "name": "Batchfile",
+      "bytes": 1450,
+      "percentage": 0.0,
+      "color": "#C1F12E"
+    },
+    {
       "name": "Ruby",
       "bytes": 1276,
       "percentage": 0.0,
@@ -204,12 +210,6 @@
       "bytes": 1131,
       "percentage": 0.0,
       "color": "#9400ff"
-    },
-    {
-      "name": "Batchfile",
-      "bytes": 603,
-      "percentage": 0.0,
-      "color": "#C1F12E"
     },
     {
       "name": "Makefile",
