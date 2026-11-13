@@ -10,7 +10,7 @@
     "total_commits": 59,
     "total_prs": 1,
     "total_issues": 0,
-    "current_streak": 10,
+    "current_streak": 0,
     "longest_streak": 19,
     "public_repos": 9,
     "private_repos": 29,
@@ -53,24 +53,24 @@
       }
     ]
   },
-  "total_bytes": 74500999,
+  "total_bytes": 74534878,
   "languages": [
     {
       "name": "JavaScript",
       "bytes": 31891475,
-      "percentage": 42.81,
+      "percentage": 42.79,
       "color": "#f1e05a"
     },
     {
       "name": "PHP",
       "bytes": 18470829,
-      "percentage": 24.79,
+      "percentage": 24.78,
       "color": "#4F5D95"
     },
     {
       "name": "C#",
-      "bytes": 16362956,
-      "percentage": 21.96,
+      "bytes": 16396835,
+      "percentage": 22.0,
       "color": "#7355dd"
     },
     {
