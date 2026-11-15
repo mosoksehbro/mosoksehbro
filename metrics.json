@@ -23,54 +23,54 @@
       },
       {
         "day": "Mon",
-        "count": 379,
+        "count": 376,
         "ratio": 1.0
       },
       {
         "day": "Tue",
-        "count": 258,
-        "ratio": 0.68
+        "count": 238,
+        "ratio": 0.63
       },
       {
         "day": "Wed",
-        "count": 235,
-        "ratio": 0.62
+        "count": 231,
+        "ratio": 0.61
       },
       {
         "day": "Thu",
-        "count": 269,
+        "count": 267,
         "ratio": 0.71
       },
       {
         "day": "Fri",
-        "count": 168,
+        "count": 166,
         "ratio": 0.44
       },
       {
         "day": "Sat",
         "count": 172,
-        "ratio": 0.45
+        "ratio": 0.46
       }
     ]
   },
-  "total_bytes": 74534878,
+  "total_bytes": 74656837,
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 31891475,
-      "percentage": 42.79,
+      "bytes": 31891684,
+      "percentage": 42.72,
       "color": "#f1e05a"
     },
     {
       "name": "PHP",
       "bytes": 18470829,
-      "percentage": 24.78,
+      "percentage": 24.74,
       "color": "#4F5D95"
     },
     {
       "name": "C#",
-      "bytes": 16396835,
-      "percentage": 22.0,
+      "bytes": 16518585,
+      "percentage": 22.13,
       "color": "#7355dd"
     },
     {
@@ -106,7 +106,7 @@
     {
       "name": "Java",
       "bytes": 197607,
-      "percentage": 0.27,
+      "percentage": 0.26,
       "color": "#b07219"
     },
     {
