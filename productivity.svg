@@ -14,23 +14,23 @@
     <g transform="translate(127, 0)">
       <rect x="0" y="40" width="48" height="42" rx="3" fill="#7aa2f7" opacity="1.00" />
       <text x="24" y="98" text-anchor="middle" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">Mon</text>
-      <text x="24" y="36" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">376</text>
+      <text x="24" y="36" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">383</text>
     </g>
 
     <g transform="translate(219, 0)">
       <rect x="0" y="56" width="48" height="26" rx="3" fill="#7aa2f7" opacity="0.78" />
       <text x="24" y="98" text-anchor="middle" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">Tue</text>
-      <text x="24" y="52" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">238</text>
+      <text x="24" y="52" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">240</text>
     </g>
 
     <g transform="translate(311, 0)">
-      <rect x="0" y="57" width="48" height="25" rx="3" fill="#7aa2f7" opacity="0.77" />
+      <rect x="0" y="57" width="48" height="25" rx="3" fill="#7aa2f7" opacity="0.76" />
       <text x="24" y="98" text-anchor="middle" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">Wed</text>
       <text x="24" y="53" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">231</text>
     </g>
 
     <g transform="translate(403, 0)">
-      <rect x="0" y="53" width="48" height="29" rx="3" fill="#7aa2f7" opacity="0.83" />
+      <rect x="0" y="53" width="48" height="29" rx="3" fill="#7aa2f7" opacity="0.82" />
       <text x="24" y="98" text-anchor="middle" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">Thu</text>
       <text x="24" y="49" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">267</text>
     </g>
@@ -42,9 +42,9 @@
     </g>
 
     <g transform="translate(587, 0)">
-      <rect x="0" y="63" width="48" height="19" rx="3" fill="#7aa2f7" opacity="0.68" />
+      <rect x="0" y="64" width="48" height="18" rx="3" fill="#7aa2f7" opacity="0.67" />
       <text x="24" y="98" text-anchor="middle" fill="#c0caf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11px">Sat</text>
-      <text x="24" y="59" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">172</text>
+      <text x="24" y="60" text-anchor="middle" fill="#38bdae" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10px" font-weight="600">172</text>
     </g>
   </g>
 </svg>
