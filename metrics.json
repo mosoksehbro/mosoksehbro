@@ -6,30 +6,30 @@
     "location": "Indonesia"
   },
   "summary": {
-    "total_contributions": 1657,
+    "total_contributions": 1649,
     "total_commits": 42,
     "total_prs": 1,
     "total_issues": 0,
-    "current_streak": 0,
+    "current_streak": 1,
     "longest_streak": 19,
     "public_repos": 9,
-    "private_repos": 29,
+    "private_repos": 30,
     "collab_repos": 15,
     "weekday_distribution": [
       {
         "day": "Sun",
         "count": 185,
-        "ratio": 0.49
+        "ratio": 0.48
       },
       {
         "day": "Mon",
-        "count": 380,
+        "count": 382,
         "ratio": 1.0
       },
       {
         "day": "Tue",
         "count": 238,
-        "ratio": 0.63
+        "ratio": 0.62
       },
       {
         "day": "Wed",
@@ -39,7 +39,7 @@
       {
         "day": "Thu",
         "count": 268,
-        "ratio": 0.71
+        "ratio": 0.7
       },
       {
         "day": "Fri",
@@ -53,48 +53,48 @@
       }
     ]
   },
-  "total_bytes": 78098743,
+  "total_bytes": 78538832,
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 31902815,
-      "percentage": 40.85,
+      "bytes": 31906002,
+      "percentage": 40.62,
       "color": "#f1e05a"
     },
     {
       "name": "PHP",
       "bytes": 18470829,
-      "percentage": 23.65,
+      "percentage": 23.52,
       "color": "#4F5D95"
     },
     {
       "name": "C#",
-      "bytes": 17822483,
-      "percentage": 22.82,
+      "bytes": 18061056,
+      "percentage": 23.0,
       "color": "#7355dd"
     },
     {
       "name": "TypeScript",
       "bytes": 2843728,
-      "percentage": 3.64,
+      "percentage": 3.62,
       "color": "#3178c6"
     },
     {
       "name": "C++",
-      "bytes": 2067543,
-      "percentage": 2.65,
+      "bytes": 2074274,
+      "percentage": 2.64,
       "color": "#f34b7d"
     },
     {
       "name": "Go",
-      "bytes": 1858710,
-      "percentage": 2.38,
+      "bytes": 2042868,
+      "percentage": 2.6,
       "color": "#00ADD8"
     },
     {
       "name": "Python",
-      "bytes": 1843688,
-      "percentage": 2.36,
+      "bytes": 1848324,
+      "percentage": 2.35,
       "color": "#3572A5"
     },
     {
@@ -124,12 +124,12 @@
     {
       "name": "Less",
       "bytes": 144948,
-      "percentage": 0.19,
+      "percentage": 0.18,
       "color": "#1d365d"
     },
     {
       "name": "Shell",
-      "bytes": 88025,
+      "bytes": 89558,
       "percentage": 0.11,
       "color": "#89e051"
     },
@@ -147,8 +147,8 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 34202,
-      "percentage": 0.04,
+      "bytes": 35473,
+      "percentage": 0.05,
       "color": "#384d54"
     },
     {
